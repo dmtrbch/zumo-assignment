@@ -1,4 +1,4 @@
-# Zumo test assignment
+# Zumo test assignment completed
 
 The fundamental building block of a bitcoin transaction is an unspent transaction output, or UTXO. UTXO are indivisible chunks of bitcoin currency locked to a specific owner, recorded on the blockchain, and recognized as currency units by the entire network. The bitcoin network tracks all available (unspent) UTXO currently numbering in the millions. Whenever a user receives bitcoin, that amount is recorded within the blockchain as a UTXO. Thus, a user’s bitcoin might be scattered as UTXO amongst hundreds of transactions and hundreds of blocks. In effect, there is no such thing as a stored balance of a bitcoin address or account; there are only scattered UTXO, locked to specific owners. The concept of a user’s bitcoin balance is a derived construct created by the wallet application. The wallet calculates the user’s balance by scanning the blockchain and aggregating all UTXO belonging to that user.
 
