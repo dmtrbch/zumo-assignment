@@ -3,7 +3,7 @@ import { prepareUnspentOutputsStrategy } from '../utils/strategy';
 
 export const prepareUnspentOutputs = async (req, res) => {
   try {
-    // Using axios to make external API call to https://blockchain.info/
+    // Use of axios to make external API call to https://blockchain.info/
     const response = await axios.get('https://blockchain.info/unspent',
       {
         // Retrieve address query param and use it as a parameter to the external API call
