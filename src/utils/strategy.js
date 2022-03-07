@@ -9,8 +9,8 @@ export const prepareUnspentOutputsStrategy = (unspentOutputs, amount) => {
       return a.value - b.value;
     });
 
-    In this case, I think we will manage 'to get rid of the change'
-    in a more sufficient way, but that implementation was not passing the tests
+    In this way, I think we will manage 'to get rid of the change'
+    in a more sufficient way, but that implementation is not passing the tests
   */
   
   let result = unspentOutputs.filter(utxo => {
