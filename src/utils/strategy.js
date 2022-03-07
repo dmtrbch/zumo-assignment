@@ -10,7 +10,7 @@ export const prepareUnspentOutputsStrategy = (unspentOutputs, amount) => {
     });
 
     In this way, I think we will manage 'to get rid of the change'
-    in a more sufficient way, but that implementation is not passing the tests
+    in a more sufficient way, but this implementation is not passing the tests
   */
   
   let result = unspentOutputs.filter(utxo => {
