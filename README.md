@@ -58,3 +58,7 @@ You can test your implementation by running the following command:
 ```
 npm run test
 ```
+
+## Note
+
+There are issues when trying to start the application in Node.js Version > 14
